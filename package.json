@@ -1,0 +1,9 @@
+{
+  "name": "cybergate-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo \"\\n=== CYBERGATE MONOREPO ===\\nSet Railway Root Directory to 'backend' or 'dashboard'\\nSee README.md\\n\" && exit 1",
+    "start": "echo \"Set Railway Root Directory to backend or dashboard\" && exit 1"
+  }
+}

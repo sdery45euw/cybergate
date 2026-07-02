@@ -1,0 +1,23 @@
+{
+  "provider": "node",
+  "steps": {
+    "build": {
+      "commands": [
+        "echo ''",
+        "echo '============================================================'",
+        "echo '  CYBERGATE – WRONG ROOT DIRECTORY'",
+        "echo '============================================================'",
+        "echo ''",
+        "echo 'Railway is building from the repository root.'",
+        "echo 'CyberGate is a monorepo. You MUST set a Root Directory:'",
+        "echo ''",
+        "echo '  API Service       → Root Directory = backend'",
+        "echo '  Dashboard Service → Root Directory = dashboard'",
+        "echo ''",
+        "echo 'Railway Dashboard → Service → Settings → Root Directory'",
+        "echo ''",
+        "exit 1"
+      ]
+    }
+  }
+}
